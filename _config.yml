@@ -18,16 +18,38 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Chinmay’s Learning Notes
-email: your-email@example.com
+title: Chinmay's Learning Notes
+# Linkedin: https://www.linkedin.com/in/chinmayrozekar/
 description: >- 
   Notes, ideas, and thoughts on C++, semiconductors, and EDA.
 author: Chinmay Rozekar
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+minima:
+  skin: "dark"
+  icons: "fontawesome"
+  title: true
+  author_profile: true
+  social_links:
+    - icon: "fa-brands fa-linkedin"
+      label: "LinkedIn"
+      url: https://www.linkedin.com/in/chinmayrozekar/
+    - icon: "fa-brands fa-github"
+      label: "GitHub"
+      url: https://github.com/chinmayrozekar
+# This is the default configuration for Jekyll. You can override it by
+# specifying a different theme or by adding your own custom styles.
+# If you want to use a different theme, you can find a list of available themes
+# at
+# https://jekyllrb.com/docs/themes/
+  version: 2.5.0
+  plugins:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
