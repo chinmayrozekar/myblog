@@ -19,35 +19,36 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Chinmay's Learning Notes
-# Linkedin: https://www.linkedin.com/in/chinmayrozekar/
-description: >- 
+description: >-
   Notes, ideas, and thoughts on C++, semiconductors, and EDA.
 author: Chinmay Rozekar
 
-# Build settings
-# theme: minima
-theme: dark-minima
-minima:
-  icons: "fontawesome"
-  title: true
-  author_profile: true
-  social_links:
-    - icon: "fa-brands fa-linkedin"
-      label: "LinkedIn"
-      url: https://www.linkedin.com/in/chinmayrozekar/
-    - icon: "fa-brands fa-github"
-      label: "GitHub"
-      url: https://github.com/chinmayrozekar
+# Theme setup for GitHub Pages
+theme: minima
+
+# Enable custom dark theme CSS
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      stylesheet: /assets/css/custom-dark.css
 # This is the default configuration for Jekyll. You can override it by
 # specifying a different theme or by adding your own custom styles.
 # If you want to use a different theme, you can find a list of available themes
 # at
 # https://jekyllrb.com/docs/themes/
-  version: 2.5.0
-  plugins:
-    - jekyll-seo-tag
-    - jekyll-sitemap
-    - jekyll-feed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+  # Optional social links (not active unless theme supports it)
+minima:
+  icons: fontawesome
 #plugins:
 #  - jekyll-feed
 
