@@ -18,39 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Chinmay's Learning Notes
-description: >-
+title: Chinmay’s Learning Notes
+email: your-email@example.com
+description: >- 
   Notes, ideas, and thoughts on C++, semiconductors, and EDA.
 author: Chinmay Rozekar
 
-# Theme setup for GitHub Pages
-theme: minima
-
-# Enable custom dark theme CSS
-sass:
-  style: compressed
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      stylesheet: /assets/css/custom-dark.css
-# This is the default configuration for Jekyll. You can override it by
-# specifying a different theme or by adding your own custom styles.
-# If you want to use a different theme, you can find a list of available themes
-# at
-# https://jekyllrb.com/docs/themes/
+# Build settings
+# theme: minima
+theme: jekyll-theme-midnight
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-
-  # Optional social links (not active unless theme supports it)
-minima:
-  icons: fontawesome
-#plugins:
-#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
