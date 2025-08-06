@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  `"C++ Tip: Use const Wherever Possible"
+title:  "C++ Tip: Use const Wherever Possible"
 date:   2025-07-13 10:09:39 -0700
 categories: cpp
 ---
