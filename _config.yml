@@ -25,7 +25,8 @@ description: >-
 author: Chinmay Rozekar
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/midnight@v0.2.0
+# theme: minima
 # theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
