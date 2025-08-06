@@ -25,9 +25,9 @@ description: >-
 author: Chinmay Rozekar
 
 # Build settings
-theme: minima
+# theme: minima
+theme: dark-minima
 minima:
-  skin: "dark"
   icons: "fontawesome"
   title: true
   author_profile: true
